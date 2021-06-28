@@ -1,7 +1,7 @@
 {
   "name": "melissasinspourations",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a website for Melissa's artwork",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +11,15 @@
   "repository": {
     "type": "git"
   },
-  "author": "",
+  "author": "Chelsea Regan",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
