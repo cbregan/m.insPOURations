@@ -12,6 +12,20 @@ body {
 }
 
 .navbar {
-    padding-top: 4%; 
+    padding-top: 4%;
+    font-style: bold;
+}
 
+.fa {
+    color: white;
+    font-size: 20pt; 
+}
+
+#title {
+    color:white;
+   font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
 }
