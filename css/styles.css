@@ -12,8 +12,7 @@ body {
 }
 
 .navbar {
-    padding-top: 4%;
-    font-style: bold;
+    padding-top: 2%;
 }
 
 .fa {
@@ -29,3 +28,5 @@ body {
 a:hover {
     text-decoration: none;
 }
+
+
