@@ -29,4 +29,11 @@ a:hover {
     text-decoration: none;
 }
 
+#indexCarousel {
+    padding: 15px; 
+    border: 40px solid; 
+    border-color: #edc37c;
+
+}
+
 
