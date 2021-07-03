@@ -20,11 +20,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-10">
-                    <a href="index.html"><h1 id="title">melissa's insPOURations</h1></a>
+                    <a href="index.html">
+                        <h1 id="title">melissa's insPOURations</h1>
+                    </a>
                 </div>
                 <div class="col-md-2">
-                    <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/melissas_inspourations/" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/profile.php?id=100069563702358" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-instagram"
+                        href="https://www.instagram.com/melissas_inspourations/" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook"
+                        href="https://www.facebook.com/profile.php?id=100069563702358" target="_blank"><i
+                            class="fa fa-facebook"></i></a>
                 </div>
             </div>
         </div>
@@ -47,76 +53,96 @@
         </nav>
     </header>
 
-    <div class="row row-content">
-        <div class="col-12">
-            <h2>Send us your Feedback</h2>
-            <hr />
-        </div>
-        <div class="col-md-10">
-            <form>
-                <div class="form-group row">
-                    <label for="firstName" class="col-md-2 col-form-label">First Name</label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
-                    <div class="col-5 col-md-3">
-                        <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
-                    </div>
-                    <div class="col-7">
-                        <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="email" class="col-md-2 col-form-label">Email</label>
-                    <div class="col-md-10">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <div class="col offset-md-2">
-                        May we contact you?
-                        <div class="form-check form-check-inline">
-                            <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
-                            <label for="contactYes" class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
-                            <label for="contactNo" class="form-check-label">No</label>
+    <div class="container">
+        <div class="row row-content" id="contactForm">
+            <div class="col-md-10">
+                <h2>Let Me Know What You Think!</h2>
+                <hr />
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                placeholder="First Name" />
                         </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-                    <div class="col-md-10">
-                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName"
+                                placeholder="Last Name" />
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <div class="offset-md-2 col-md-10">
-                        <button type="submit" class="btn btn-primary">Send Feedback</button>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode"
+                                placeholder="Area code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
                     </div>
-                </div>
-            </form>
-        </div>
-   </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Message</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-dark" id="formBtn">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
 
-   <div>
-        <a role="button" class="btn btn-link" href="mailto:melissainspourations@gmail.com">melissainspourations@gmail.com</a>
-   </div>
+            <div class="col-md-2">
+            <div class="containerToastBtn">
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Prefer Email?</button>
+            </div>
+        
+            <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center"
+                style="min-height: 20px;">
+                <div class="toast hide" data-autohide="true" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <strong class="mr-auto text-primary">Send Me an Email!</strong>
+                        <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+                    </div>
+                    <div class="toast-body">
+                        <a role="button" class="btn btn-link" href="mailto:melissainspourations@gmail.com">melissainspourations@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+        </div>
+
+
+    </div>
+
+    
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#liveToastBtn').click(function () {
+                $('.toast').toast({ animation: false, autohide: false });
+                $('.toast').toast('show');
+            });
+        });
+    </script>
 
 </body>
 

@@ -36,4 +36,32 @@ a:hover {
 
 }
 
+#contactForm {
+    border: 10px solid; 
+    border-color: #7ced8b;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.toast {
+    background-color: #cf7ced;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#liveToastBtn {
+    margin-top: 10px;
+    background-color: #cf7ced;
+    color: white;
+    border: none; 
+}
+
+#formBtn {
+    background-color: #7ced8b;
+    color: white;
+    border: none; 
+}
+
 
