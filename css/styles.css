@@ -4,7 +4,9 @@ body {
 }
   
 .jumbotron {
-    background-color: #e74fd3;
+    /*background-color: #e74fd3;*/
+    background-image: url("/images/possible1.jpeg");
+    background-size: cover;
     color: white; 
     font-family: cursive;
     padding-top: 3%;
@@ -12,7 +14,10 @@ body {
 }
 
 .navbar {
-    padding-top: 2%;
+    /*background-color: #e74fd3;*/
+    color: white; 
+    font-family: cursive;
+    padding-top: 3%;
 }
 
 .fa {
@@ -63,5 +68,4 @@ a:hover {
     color: white;
     border: none; 
 }
-
 
